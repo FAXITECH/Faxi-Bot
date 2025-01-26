@@ -15,7 +15,7 @@
 
  
 
-FROM quay.io/suhailtechinfo/suhail-v2
+FROM quay.io/FAXITECH/Faxi-Bot
 RUN git clone https://github.com/FAXITECH/Faxi-Bot /root/smdd
 RUN rm -rf /root/smdd/.git
 WORKDIR /root/smdd
